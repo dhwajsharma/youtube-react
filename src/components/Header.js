@@ -19,7 +19,7 @@ const Header = () => {
       } else {
         getSearchSuggestions();
       }
-    }, 3000);
+    }, 1000);
 
     return () => {
       clearTimeout(timer);
